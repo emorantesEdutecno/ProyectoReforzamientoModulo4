@@ -1,0 +1,9 @@
+#demo{
+    /* En la hoja de estilos, las palabras compuestas se escriben en notación kebab case */
+    background-color: aqua;
+    color:brown;
+}
+
+#divContenidoDinamico{
+    background-color: chartreuse;
+}

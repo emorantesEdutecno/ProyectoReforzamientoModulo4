@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<!-- LA UNICA FUNCION JS PRESENTE DE JAVASCRIPT ES LA ASOCIADA CON onload -->
+<body onload="asignarEventos()">
+
+    <!-- NO LO RECOMIENDO PORQUE NO SE PUEDE MANIPULAR -->
+    cualquier cosa
+
+    <button id="btnModoClaro"> Modo Claro</button>
+
+    <!-- el input type igual va a funcionar, pero se recomienda dentro de un contexto de form-->
+    <input id="btnModoOscuro" type="button" value="Modo Oscuro">
+
+    <p id="demo">mensaje inicial</p>
+    <!-- PREFIERO ASIGNAR LOS EVENTOS MEDIANTE JAVASCRIPT -->
+    <!-- si asigna el evento desde html debe usar la palabra on, y los parentesis de invocacion de la funcion -->
+    <button onclick="otraFuncion()" id="btnNoEs">este no es</button>
+    <button id="btnPresioname">presioname</button>
+
+    <p id="parrafoCambiante">un texto</p>
+
+    <hr>
+
+    <div id="divContenidoDinamico">
+        .
+    </div>
+    <button id="btnInvocarContenidoArray">Crear contenido dinamico</button>
+
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
