@@ -41,7 +41,6 @@ function pasarArray(){
 
 
 
-
 function activarModoClaro(){
     // cuando usted busca muchos elementos en el DOM (getElementsByTagName, getElementsByClassName), la respuesta viene en forma de arreglo
     let elBody = document.getElementsByTagName('body');
